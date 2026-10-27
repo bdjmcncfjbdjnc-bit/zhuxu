@@ -9,9 +9,9 @@
 
 </div>
 
-![竹序品牌主视觉：竹篾交错形成的流动结构](dist/assets/hero-luxe.png)
+![竹序实际首页界面](docs/showcase/01-home.jpg)
 
-> 项目主视觉素材。下方展示的是站内纹样与产品样机素材，并非界面截图；实际交互可通过在线体验查看。
+> 以下界面由本仓库页面在 Chrome 本地渲染截取；成品由实际导出按钮的输出生成。示例使用「人字编 × 雾蓝旧笺」，可在在线工坊中复现。
 
 ## 项目介绍
 
@@ -44,34 +44,36 @@
 | 产品套样 | 将纹样应用到团扇、包袋、纸品等载体 | 观察平面纹样与物件之间的关系 |
 | 保存与导出 | 本地保存方案，导出 SVG / PNG | 方便继续创作和分享设计结果 |
 
-## 视觉预览
+## 实际界面与导出成品
 
-### 纹样探索
+### 1. 在数字工坊完成设计
 
-以下为项目内置的数字纹样示意。实际工坊支持进一步调整参数与颜色。
+左侧选择编法、参数和配色，右侧即时呈现完整纹样。这里选用 **人字编 × 雾蓝旧笺**，编织密度 20、竹篾宽度 18。
 
-<table>
-<tr>
-<td align="center" width="33%"><img src="dist/assets/pattern-1.svg" width="240" alt="数字竹编纹样示例一"><br>纹样示例 01</td>
-<td align="center" width="33%"><img src="dist/assets/pattern-2.svg" width="240" alt="数字竹编纹样示例二"><br>纹样示例 02</td>
-<td align="center" width="33%"><img src="dist/assets/pattern-4.svg" width="240" alt="数字竹编纹样示例三"><br>纹样示例 03</td>
-</tr>
-</table>
+![数字工坊实际界面：人字编与雾蓝旧笺配色](docs/showcase/02-studio.jpg)
 
-### 文创载体
+### 2. 在产品预览中查看套样
 
-以下为站内使用的 **AI 生成产品样机底图**，展示可供数字纹样套用的产品方向；在线工坊中可查看动态套样效果。
+同一套设计同步到团扇，保留扇面形状、竹框与手柄。右侧可切换展示方式，并点击「导出当前画面 PNG」。
 
-<table>
-<tr>
-<td width="50%"><img src="dist/assets/fan-photo-v10.jpg" alt="团扇样机底图"><br><b>团扇</b> · 探索纹样在扇面上的视觉表达</td>
-<td width="50%"><img src="dist/assets/coaster-photo-v10.jpg" alt="竹编杯垫样机底图"><br><b>杯垫</b> · 观察纹样在小尺度器物上的效果</td>
-</tr>
-<tr>
-<td><img src="dist/assets/papertote-photo-v10.jpg" alt="纸袋样机底图"><br><b>纸袋</b> · 尝试文创包装的图案应用</td>
-<td><img src="dist/assets/giftbox-photo-v10.jpg" alt="礼盒样机底图"><br><b>礼盒</b> · 预览纹样与包装载体的组合</td>
-</tr>
-</table>
+![团扇成品预览实际界面，包含导出按钮](docs/showcase/03-fan-preview.jpg)
+
+### 3. 导出后得到的成品
+
+下面两张图来自实际 PNG 导出流程，均为 **1600 × 1200**。它们已经包含本次设计的纹样与配色，是可保存的数字效果图；产品底图使用项目原有 AI 样机，并非已生产实物。
+
+| 团扇导出效果 | 手提包导出效果 |
+| --- | --- |
+| ![已导出的团扇设计](docs/showcase/fan-export.png) | ![已导出的手提包设计](docs/showcase/bag-export.png) |
+| [查看团扇 PNG 原文件](docs/showcase/fan-export.png) | [查看手提包 PNG 原文件](docs/showcase/bag-export.png) |
+
+### 4. 可继续编辑的矢量纹样
+
+![本次设计导出的完整 SVG 纹样](docs/showcase/pattern-herringbone.svg)
+
+[查看 SVG 原文件](docs/showcase/pattern-herringbone.svg) · [查看全部截图与导出样本](docs/showcase/)
+
+**复现方式：** 进入数字工坊 → 选择「人字编」→ 选择「雾蓝旧笺」→ 导出纹样 SVG；然后在「造物新生」选择团扇或手提包，点击「导出当前画面 PNG」。在 GitHub 文件页可使用下载原文件按钮保存样本。
 
 ## 产品设计思路
 
