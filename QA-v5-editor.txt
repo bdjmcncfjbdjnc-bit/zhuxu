@@ -1,0 +1,2 @@
+3 DOM/algorithm test groups passed.
+Browser layout, native file upload and browser PNG download remain unverified: CUA initialization fails (os error 3).

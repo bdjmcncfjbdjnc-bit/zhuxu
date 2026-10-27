@@ -1,0 +1,2 @@
+34 DOM/algorithm test groups passed.
+Browser verification is documented separately in QA-v10.md.

@@ -1,0 +1,1 @@
+const fs=require('fs');let p='dist/index.html',h=fs.readFileSync(p,'utf8');h=h.replace('</head>','<link rel="stylesheet" href="luxe.css"></head>').replace('</body>','<script src="luxe.js"></script></body>');h=h.replace('每一次调整，都会同步应用到下方文创预览。','每一次调整，都会同步应用到下方「我的纹样套样」。');fs.writeFileSync(p,h);
